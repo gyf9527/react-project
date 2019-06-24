@@ -1,2 +1,2 @@
 # react-project
-gyf+ssc
+gyf

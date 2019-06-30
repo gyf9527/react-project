@@ -1,0 +1,63 @@
+#wnmb {
+    position: fixed;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    .is-flat.bm-Button-primary {
+        margin-right: 0.5rem;
+    }
+    .is-flat.bm-Button-info {
+        margin-left: 0.5rem;
+    }
+    .bm-Button.bm-Button-sm.bm-Button-fab {
+        margin: 0 0.2rem;
+    }
+    .pic_img {
+        text-align: center;
+        margin-top: 20px;
+        @-webkit-keyframes rotation {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes rotation {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        .Rotation {
+            // display: block;
+            // position: relative;
+            -webkit-animation: rotation 8s linear infinite;
+            animation: rotation 8s linear infinite;
+        }
+        .img {
+            margin: auto;
+            border-radius: 50%;
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+    #audio {
+        background-color: black;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}

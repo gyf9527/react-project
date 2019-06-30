@@ -1,0 +1,62 @@
+    .bm-TabsGroup {
+        background-color: #6b6666;
+        .bm-Tabs-nav .bm-Tab.bm-Tab-active .bm-Tab-inner {
+            height: 50px;
+            line-height: 50px;
+            font-size: 20px;
+            color: red;
+        }
+    }
+    
+    .bm-List {
+        background-color: #6b6666;
+        color: white;
+        .bm-List-item {
+            background-color: #6b6666;
+            .bm-List-item-btn {
+                background-color: rgb(68, 67, 67);
+                .bm-List-item-text {
+                    color: white;
+                }
+            }
+        }
+    }
+    
+    .list {
+        position: relative;
+        margin-bottom: 100px;
+        .btn {
+            position: absolute;
+            left: 0;
+            bottom: -35px;
+        }
+    }
+    
+    .upload-container {
+        float: left;
+        width: 2rem;
+        height: 2rem;
+        margin-left: .4rem;
+        position: relative;
+        overflow: hidden;
+        .headerImg {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: 2px solid #333;
+        }
+        .headerInput {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            // float: left;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+    }

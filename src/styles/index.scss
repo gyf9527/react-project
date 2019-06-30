@@ -1,0 +1,73 @@
+@import "common";
+@import "animate.css";
+@import "fonts/iconfont.css";
+@import "./antd-mobile.css";
+@import "./bee-mobile.min.css";
+$base_font:20px;
+$base_color:#333;
+// 全局样式  golbal 
+html,
+body,
+#root,
+.box,
+.wdgd,
+.hanpi,
+.grzx,
+.wdsc,
+.mylike,
+#main,
+#wnmb,
+.g-img,
+#guide {
+    width: 100vw;
+    height: 100vh;
+}
+
+.tnhz {
+    // float: left;
+    font-size: 40px;
+    color: antiquewhite;
+    background-color: #000000;
+}
+
+.yuan {
+    // float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: skyblue;
+    line-height: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.fang {
+    // float: left;
+    width: 200px;
+    /*no*/
+    height: 200px;
+    /*no*/
+    background-color: red;
+    font-size: 40px;
+    /*no*/
+    line-height: 200px;
+    /*no*/
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.donghua-in {
+    animation: slideInUp 2s;
+}
+
+.donghua-out {
+    animation: slideOutUp 1s;
+}
+
+.pic_img {
+    text-align: center;
+}
